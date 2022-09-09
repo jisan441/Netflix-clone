@@ -400,6 +400,12 @@ tr {
     border-radius: 5px;
 }
 
+@media (max-width: 700px) {
+    #tab-2-content .tab2-down {
+        grid-template-columns: 1fr;
+    }
+}
+
 #tab-1-content,
 #tab-2-content,
 #tab-3-content {
